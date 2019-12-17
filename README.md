@@ -1,5 +1,12 @@
 # Rails Error Generator
 
+[![Builds](https://github.com/chiefpansancolt/rails-error-generator/workflows/Builds/badge.svg)]()
+[![Lints](https://github.com/chiefpansancolt/rails-error-generator/workflows/Linter/badge.svg)]()
+[![Tests](https://github.com/chiefpansancolt/rails-error-generator/workflows/Tests/badge.svg)]()
+![GitHub release](https://img.shields.io/github/release/chiefpansancolt/rails-error-generator?logo=github&style=flat-square)
+![Gem](https://img.shields.io/gem/dt/rails-error-generator?logo=rubygems&style=flat-square)
+[![Discord](https://img.shields.io/discord/450095227185659905?label=Discord&logo=discord&style=flat-square)](https://discord.gg/FPfA3w6)
+
 Rails Error Generator was built to enable easy start for using Rails route rendering to render error codes using ERB over public folder. This tool will generate various version of views.
 
 ## Supported Error Codes
