@@ -4,10 +4,10 @@ Rails Error Generator was built to enable easy start for using Rails route rende
 
 ## Supported Error Codes
 
+### 4xx Client Codes
+
 | Code | Meaning                         | Routing                          |
 | ---  | ---                             | ---                              |
-| 4xx Client Error                                                        |||
-| ---                                                                     |||
 | 400  | Bad Request                     | :bad_request                     |
 | 401  | Unauthorized                    | :unauthorized                    |
 | 402  | Payment Required                | :payment_required                |
@@ -30,8 +30,11 @@ Rails Error Generator was built to enable easy start for using Rails route rende
 | 423  | Locked                          | :locked                          |
 | 424  | Failed Dependency               | :failed_dependency               |
 | 426  | Upgrade Required                | :upgrade_required                |
-| 5xx Server Error                                                          |
-| ---                                                                     |||
+
+### 5xx Server Codes
+
+| Code | Meaning                         | Routing                          |
+| ---  | ---                             | ---                              |
 | 500  | Internal Server Error           | :internal_server_error           |
 | 501  | Not Implemented                 | :not_implemented                 |
 | 502  | Bad Gateway                     | :bad_gateway                     |
